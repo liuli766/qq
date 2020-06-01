@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>QQ注册</title>
+		<link rel="icon" type="image/png" href="img/logo.png"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div class="left">
+			<div class="banner">
+				<img src="img/01-1.jpg"/ class="active">
+				<img src="img/01-3.jpg"/>
+				<img src="img/01-4.jpg"/>
+				<a href="#">QQ</a>
+			</div>
+		</div>
+		<div class="right ">
+			<nav>
+				<div class="son">
+					<div class="tit">
+						<img src="img/logo3.png"/>
+						<a href="#">QQ靓号</a>
+					</div>					
+					<div class="block">
+						<span>搜索QQ靓号 <a href="#"></a></span>
+						<span>生日  星座  爱情 手机</span>
+					</div>
+				</div>
+				<div class="leg">
+					<div class="tit">
+						<span>简体中文</span>
+						<span></span>
+					<ul>
+						<li>繁体中文</li>
+						<li>English</li>
+					</ul>
+					</div>
+					
+					
+				</div>
+				<a href="#">意见反馈</a>
+			</nav>
+			<h2>欢迎注册QQ</h2>
+			<div class="tim">
+				<p>每一天，乐在沟通。</p>
+				<a href="#">免费靓号</a>
+			</div>
+			
+			<form  method="get"id="form">
+				<!--昵称-->
+				<div class="nic">
+					<input type="text"placeholder="昵称"name="user"id="inp1"/>
+					<div class="err"id="er">
+						<img src="img/error.png"/>
+						昵称不可为空
+					</div>
+					<img src="img/tick.png"/>
+				</div>
+				<!--密码-->
+				<div class="nic">
+					<input type="password"value="" placeholder="密码"name="passd"id="inp2"/>
+					<div class="err"id="er2">
+						<img src="img/error.png"/>
+						密码不可为空
+					</div>
+					<div class="infotip">
+						<div class="info">
+						<img src="img/green.png"/>
+						不能包括空格
+					</div>
+					<div class="info">
+						<img src="img/info.png"/>
+						长度为8到16的字符
+					</div>
+					<div class="info">
+						<img src="img/info.png"/>
+						必须包含字母，数字，字符至少两种
+					</div>
+					</div>
+					<img src="img/tick.png"/>
+					<img src="img/eye-close.png"id="eye"/>
+					<div id="tip">
+						<img src="img/error.png"/>
+						长度为8到16的字符
+					</div>
+				</div>
+				<!--手机号-->
+				<div class="phone">
+					<input type="text" value="+86"/>
+					<input type="text"placeholder="手机号码"name="phone"id="inp3"/>
+				</div>
+				<div class="phone none">
+					<input type="text" placeholder="短信验证码" id="inp4"/>
+					<input type="submit"value="发送短信" class="duanxin"/>
+				</div>
+				<input type="submit" value="立即注册" class="sub"/>
+				
+			</form>
+		</div>
+		<script src="js/qq.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
